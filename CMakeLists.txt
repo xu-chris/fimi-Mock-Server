@@ -34,7 +34,7 @@ SET(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${CMAKE_LIBRARY_OUTPUT_DIRECTORY})
 add_definitions(-D_WEBSOCKETPP_CPP11_STRICT_)
 
 # Add the third-party headers directory to the search path
-include_directories(SYSTEM "${PROJECT_SOURCE_DIR}/external")
+include_directories(SYSTEM "${PROJECT_SOURCE_DIR}/extern")
 
 # Build the server executable
 add_executable(${PROJECT_NAME} src/core/main.cpp src/periphery/WebsocketServer.cpp)
