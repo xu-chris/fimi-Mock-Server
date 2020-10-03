@@ -1,5 +1,5 @@
-#include "../periphery/WebsocketServer.h"
-#include "../domainvalue/DelayPerData.h"
+#include "periphery/WebsocketServer.h"
+#include "domainvalue/DelayPerData.h"
 
 #include <iostream>
 #include <thread>
@@ -7,7 +7,6 @@
 #include <utility>
 #include <fstream>
 #include <chrono>
-#include <thread>
 
 //The port number the WebSocket server listens on
 #define PORT_NUMBER 8080
